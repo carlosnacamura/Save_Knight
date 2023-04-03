@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+}
+.container {
+    background-image: url(cenario.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+     font-family: paragrafos;
+     font-size: 60px;
+}
+.float {
+    background-image: linear-gradient(red,purple);
+    width: 300px;
+    height: 300px;
+    border: 9px groove blue;
+}
+p {
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: paragrafos;
+    src: url(game_2/Game-Font.ttf);
+}

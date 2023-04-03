@@ -1,27 +1,41 @@
 * {
-    margin: 0%;
+   margin: 0%;
 }
 
 h1 {
     color: whitesmoke;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    font-family: paragrafos;
 }
 .logo {
     text-align: center;
+    color: white;
+    background-image: url(logo.ico);
+    background-repeat: no-repeat;
 }
+
 header {
-    background-color: blue;
+    background-image: url(cenario.jpeg);
+    background-position: center;
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.cima {
+    color: white;
+    background-color: black;
+    border: 6px solid white;
+    border-radius: 30px;
+    font-family: paragrafos;
+    text-decoration: none;
     padding: 30px;
-    height: 80px;
+    font-size: 60px;
 }
 main {
     padding: 30px;
 }
-h2 {
-    color: white;
-}
-p {
+
+.main {
     font-family: paragrafos;
     font-size: 90px;
     color: black;
@@ -29,34 +43,51 @@ p {
 .conteudo {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 h2 {
     text-align: center;
     font-size: 100px;
     font-weight: bold;
     font-family: paragrafos;
+    color: white;
+}
+.charaters {
+    border: 9px solid blue;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .cavaleiro {
     background-image: url(dia.jpeg);
     background-position: center;
+    margin: 20px 0px;
+    border: 9px solid blue;
 }
 .text_cavaleiro {
     background-color: rgb(255, 255, 255,0.5);
     border: 3px solid black;
     border-radius: 20px;
 }
+.logo_cavaleiro {
+    color: rgb(151, 161, 161);
+}
 .princesa {
     background-image: url(dia.jpeg);
     background-position:bottom;
+    margin: 20px 0px;
 }
 .text_princesa {
     background-color: rgb(255, 255, 255,0.5);
     border: 3px solid black;
     border-radius: 20px;
 }
+.logo_princesa {
+    color: pink;
+}
 .esqueleto {
     background-image: url(noite.jpeg);
     background-position: center;
+    margin: 20px 0px;
 }
 .text_esqueleto {
     background-color: rgb(250, 250, 250,0.5);
@@ -67,36 +98,45 @@ h2 {
     background-image: url(deserto.jpeg);
     padding: 130px;
     background-position: bottom;
+    margin: 20px 0px;
 }
 .text_minhoca {
     background-color: rgb(255, 255, 255,0.5);
     border: 3px solid black;
     border-radius: 20px;
 }
+.logo_minhoca {
+    color: brown;
+}
 .aranha {
     background-image: url(tarde.jpeg);
     background-position: center;
+    margin: 20px 0px;
 }
 .text_aranha {
     background-color: rgb(255, 255, 255,0.5);
     border: 3px solid black;
     border-radius: 20px;
 }
-.xp {
-   background-color: rgb(255, 0, 0,0.5);
-   border: 6px solid white;
-   border-radius: 20px;
+.logo_aranha {
+    color: red;
 }
-img {
+.personagens {
     width: 100%;
 }
+.fire {
+    background-image: url(https://usagif.com/wp-content/uploads/gifs/fire-102.gif);
+    width: 100vw;
+}
 footer {
-    padding: 30px;
+    padding: 90px;
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    background-image: url(https://usagif.com/wp-content/uploads/gifs/fire-102.gif);
+    background-color: rgb(68, 68, 68);
     background-position: center;
+}
+.footer {
+    color: white;
 }
 body {
     background-color: black;
@@ -121,10 +161,10 @@ body {
 }
 @keyframes cima {
     from {
-        transform: translateY(1000px);
+        transform: translateY(2000px);
     }
     to {
-        transform: translateY(-1000px) rotate(960deg);
+        transform: translateY(-2100px) rotate(960deg);
     }
 }
 .chama li {
